@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Prueba de código</title>
+</head>
+<script src="fechas.js"></script>
+<script src="objetos.js"></script>
+<script src="dom.js"></script>
+<script src="spread.js"></script>
+<script src="estructuras_control.js"></script>
+<script src="funciones.js"></script>
+<script src="funciones_defecto.js"></script>
+<script src="higher-order.js"></script>
+<body>
+
+ <p id="parrafo" class="noso">Hola mundo</p>
+   <script>
+      'use strict';
+      
+      var alumno = "Daniel Galvez";
+      var alumnos = ["Daniel Galvez", "Rosa Santana", "German Cruz", "Alonso Torres"];
+      var materias = new Array("Computacion Paralela", "Virtualización", "Tecnologias Emergent");
+      var registros = [12890989, 23435564, 19091898, 12930102];
+      
+      console.log(alumnos.length);
+      
+      console.log("Alumno:", alumnos[2], ", Inscrito en la materia:", materias[0]);
+      console.log("Alumno:", alumnos[1], ", Inscrito en la materia:", registros[1]);
+      
+      // for
+      for (var i = 0; i < alumnos.length; i++) {
+         console.log(alumnos[i]);
+      }
+      
+      // forEach
+      materias.forEach(function(mate) {
+         console.log(mate);
+      });
+      
+      // for...in
+      for (var registro in registros) {
+         console.log(registros[registro]);
+      }
+   </script>
+</body>
+</html>

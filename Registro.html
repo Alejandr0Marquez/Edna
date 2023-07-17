@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <nav class="menu">
+		<a href="index.html">Home</a>
+		<a href="Login.html">Login</a>
+		<a href="Productos.html">Productos</a>
+		<a href="Registro.html">Registro</a>
+		<a href="Ubicacion.html">Ubicacion</a>
+		
+	</nav>
+
+    <div class="body_1">
+     
+
+        <form class="form"  action="Registro.php"  method="POST">
+            <h2 class="form__title">Registro</h2>
+
+            <div class="form__container">
+                
+                <div class="form__group">
+                    <input type="text" name="nombre" id="nombre" class="form__input" placeholder=" ">
+                    <label for="Nombre" class="form__label">Nombre(s)</label>
+                    <span class="form__line"></span>
+                </div>
+            
+                <div class="form__group">
+                    <input type="text" name="apellido_paterno" id="apellido_paterno" class="form__input" placeholder=" ">
+                    <label for="Apellido paterno" class="form_  _label">Apellido paterno:</label>
+                    <span class="form__line"></span>        
+                </div>
+                
+                <div class="form__group">
+                    <input type="text" name="apellido_materno" id="apellido_materno" class="form__input" placeholder=" ">
+                    <label for="Apellido materno" class="form__label">Apellido materno:</label>
+                    <span class="form__line"></span>        
+                </div>
+
+             
+
+                <div class="form__group">
+                    <input type="text" name="usuario_nuevo" id="usuario_nuevo" class="form__input" placeholder=" ">
+                    <label for="usuario_nuevo" class="form__label">Usuario nuevo :</label>
+                    <span class="form__line"></span>
+                </div>
+
+
+                <div class="form__group">
+                    <input type="text" name="ciudad" id="ciudad" class="form__input" placeholder=" ">
+                    <label for="Ciudad" class="form__label">Ciudad: :</label>
+                    <span class="form__line"></span>
+                </div>
+
+                
+                <div class="form__group">
+                    <input type="text" name="contrasena" id="contrasena" class="form__input" placeholder=" ">
+                    <label for="Contrasena" class="form__label">Contrasena:</label>
+                    <span class="form__line"></span>
+                </div>
+
+                <input type="submit" class="form__submit" value="Dar de alta ">
+            </div>
+        </form>
+    </div>
+   
+</body>
+</html>
