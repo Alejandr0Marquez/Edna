@@ -1,7 +1,7 @@
 <?php
-$dbhost = "localhost";
-$dbuser = "root";
-$dbpass = "";
+$dbhost = "root";
+$dbuser = "edna";
+$dbpass = "12345";
 $dbname = "maquinas";
 
 $conn = mysqli_connect($dbhost, $dbuser, $dbpass , $dbname);
