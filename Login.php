@@ -2,8 +2,8 @@
 
 <?php
 $db_host="localhost";
-$db_user="root";
-$db_pasword="";
+$db_user="edna";
+$db_pasword="12345";
 $db_name="maquinas";
 
 $con = mysqli_connect ($db_host, $db_user, $db_pasword, $db_name);
