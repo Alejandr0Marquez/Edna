@@ -1,5 +1,5 @@
 <?php
-$dbhost = "127.0.0.1";
+$dbhost = "localhost";
 $dbuser = "edna";
 $dbpass = "12345";
 $dbname = "maquinas";
