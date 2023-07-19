@@ -28,7 +28,7 @@ if($rows = mysqli_fetch_array($con)){
     alert('Logeado correctamente');
 </script>";
 
-header("Location: http://localhost/pagina-para-joyeria-con-parallax-master/index.html");
+header("Location:index.html");
 }
 
 ?>
