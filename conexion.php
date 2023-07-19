@@ -1,5 +1,5 @@
 <?php
-$server="localhost";
+$server="127.0.0.1";
 $database="maquinas";
 $username="edna";
 $password="12345";
