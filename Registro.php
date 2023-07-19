@@ -21,6 +21,6 @@ echo "$nombre, $apellido_paterno, $apellido_materno, $usuario_nuevo,$ciudad,$con
 $sql="INSERT INTO usuarios (id,nombre,apellido_paterno,apellido_materno,usuario_nuevo,ciudad,contrasena) VALUES (0,'$nombre','$apellido_paterno','$apellido_materno','$usuario_nuevo','$ciudad','$contrasena')";
 $resul = mysqli_query($conn , $sql) or trigger_error("Query Failed! SQL- Error: " .mysqli_error($conn));
 echo "$sql";
-header("Location: http://localhost/pagina-para-joyeria-con-parallax-master/index.html");
+header("Location:index.html");
 
 ?>
