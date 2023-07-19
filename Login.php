@@ -1,7 +1,7 @@
 
 
 <?php
-$db_host="localhost";
+$db_host="127.0.0.1";
 $db_user="edna";
 $db_pasword="12345";
 $db_name="maquinas";
